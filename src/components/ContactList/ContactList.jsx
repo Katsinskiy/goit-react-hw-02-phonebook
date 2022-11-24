@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import s from './ContactList.module.css';
+
 function ContactList(props) {
   const { contacts, contactOnDelete } = props;
 
@@ -31,11 +31,4 @@ ContactList.propTypes = {
 };
 
 export default ContactList;
-// friends: PropTypes.arrayOf(
-//   PropTypes.shape({
-//     avatar: PropTypes.string.isRequired,
-//     name: PropTypes.string.isRequired,
-//     isOnline: PropTypes.bool.isRequired,
-//     id: PropTypes.number.isRequired,
-//   })
-// ),
+
